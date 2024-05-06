@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    align-items: left;
+    grid-template-columns: auto 1fr;
+    style:"display: inline-block;"
+}
+
+th,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style: inset;
+    border-radius: 10%;
+}
